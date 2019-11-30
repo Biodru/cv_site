@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:piotr_brus_cv/tabs/about_me.dart';
 import 'package:piotr_brus_cv/tabs/programming.dart';
 import 'package:piotr_brus_cv/tabs/movies.dart';
-import 'package:piotr_brus_cv/tabs/podcast.dart';
+import 'package:piotr_brus_cv/tabs/education.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -15,16 +15,16 @@ class _HomePageState extends State<HomePage> {
     AboutTab(),
     ProgrammingTab(),
     MoviesTab(),
-    PodcastTab()
+    Education()
   ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
       body: Center(
         child: tabWidgets.elementAt(_selectedIndex),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Color(0xFF03A9F4),
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.account_circle),
@@ -45,6 +45,7 @@ class _HomePageState extends State<HomePage> {
         ],
         currentIndex: _selectedIndex,
         onTap: (index) => setState(() => _selectedIndex = index),
+        unselectedItemColor: Color(0xFF03A9F4),
         selectedItemColor: Theme.of(context).accentColor,
       ),
     );

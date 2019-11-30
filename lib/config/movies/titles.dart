@@ -13,4 +13,5 @@ class Titles {
   static const Terminator = 'Terminator: Mroczne Przeznaczenie';
   static const FvF = 'Ford v Ferrari (Le Mans \'66)';
   static const Proceder = 'Proceder';
+  static const KnivesOut = 'Na Noże';
 }

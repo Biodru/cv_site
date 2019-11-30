@@ -33,10 +33,51 @@ class _ProgrammingTabState extends State<ProgrammingTab> {
     )
   ];
   List<Widget> sWC = [
-    Text(
-      'Swift',
-      style: TextStyle(fontSize: 50),
-    )
+    SkillShareCourse(
+      title: 'SwiftUI',
+      image: Assets.SwiftUI,
+      link: Constansts.SwiftUI,
+    ),
+    SkillShareCourse(
+      title: 'Closures',
+      image: Assets.SwiftClosures,
+      link: Constansts.SwiftClosures,
+    ),
+    SkillShareCourse(
+      title: 'Hide Status Bar',
+      image: Assets.SwiftHideStatus,
+      link: Constansts.SwiftHideStatus,
+    ),
+    SkillShareCourse(
+      title: 'API',
+      image: Assets.SwiftApi,
+      link: Constansts.SwiftApi,
+    ),
+    SkillShareCourse(
+      title: 'TableView',
+      image: Assets.SwiftTableView,
+      link: Constansts.SwiftTableView,
+    ),
+    SkillShareCourse(
+      title: 'Switch',
+      image: Assets.SwiftSwitch,
+      link: Constansts.SwiftSwitch,
+    ),
+    SkillShareCourse(
+      title: 'Zmienne, stałe i ich typy',
+      image: Assets.SwiftVariables,
+      link: Constansts.SwiftVariables,
+    ),
+    SkillShareCourse(
+      title: 'GitHub w Xcode',
+      image: Assets.SwiftGitIntegration,
+      link: Constansts.SwiftGitIntegration,
+    ),
+    SkillShareCourse(
+      title: 'Currency Converter',
+      image: Assets.SwiftCurrencyConverter,
+      link: Constansts.SwiftCurrencyConverter,
+    ),
   ];
   bool course = true;
 

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
+import 'package:piotr_brus_cv/config/text_colors.dart';
 
 class SkillShareCourse extends StatelessWidget {
   String title;
@@ -19,7 +20,13 @@ class SkillShareCourse extends StatelessWidget {
               children: <Widget>[
                 Padding(
                   padding: const EdgeInsets.all(10.0),
-                  child: Text(title),
+                  child: Text(
+                    title,
+                    style: TextStyle(
+                        color: TextColors().primary,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20),
+                  ),
                 ),
                 Image.asset(image)
               ],

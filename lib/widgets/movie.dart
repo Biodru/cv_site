@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:piotr_brus_cv/config/text_colors.dart';
 
 class Movie extends StatelessWidget {
   String date;
@@ -10,6 +11,7 @@ class Movie extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(10.0),
       child: Card(
+        borderOnForeground: true,
         child: Padding(
           padding: const EdgeInsets.all(10.0),
           child: Column(
@@ -17,11 +19,30 @@ class Movie extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  Text(title),
-                  Text(date),
+                  Flexible(
+                    child: Text(
+                      title,
+                      style: TextStyle(
+                          color: TextColors().primary,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 40),
+                    ),
+                  ),
+                  Flexible(
+                    child: Text(
+                      date,
+                      style: TextStyle(
+                          color: TextColors().secondary,
+                          fontStyle: FontStyle.italic,
+                          fontSize: 30),
+                    ),
+                  ),
                 ],
               ),
-              Text(review),
+              Text(
+                review,
+                style: TextStyle(color: TextColors().secondary, fontSize: 20),
+              ),
             ],
           ),
         ),

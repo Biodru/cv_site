@@ -13,4 +13,5 @@ class Dates {
   static const Terminator = '8/11/2019';
   static const FvF = '19/11/2019';
   static const Proceder = '20/11/2019';
+  static const KnivesOut = '29/11/2019';
 }

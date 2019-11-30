@@ -13,6 +13,8 @@ dependencies:
   toggle_switch: "^0.1.4"
 
   cupertino_icons: ^0.1.2
+  flutube: ^0.8.3
+  youtube_player: ^3.5.0
 
 dev_dependencies:
   flutter_test:

@@ -14,6 +14,11 @@ class MoviesTab extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Movie(
+                date: Dates.KnivesOut,
+                title: Titles.KnivesOut,
+                review: Reviews.KnivesOut,
+              ),
+              Movie(
                   date: Dates.Proceder,
                   title: Titles.Proceder,
                   review: Reviews.Proceder),
