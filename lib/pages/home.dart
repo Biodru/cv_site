@@ -39,8 +39,8 @@ class _HomePageState extends State<HomePage> {
             title: Text('Movies'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.mic),
-            title: Text('Podcast'),
+            icon: Icon(Icons.school),
+            title: Text('Education'),
           )
         ],
         currentIndex: _selectedIndex,

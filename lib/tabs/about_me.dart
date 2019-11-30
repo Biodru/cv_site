@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:piotr_brus_cv/config/assets.dart';
 import 'package:piotr_brus_cv/config/constants.dart';
 import 'package:piotr_brus_cv/widgets/social.dart';
+import 'dart:html' as html;
 
 class AboutTab extends StatelessWidget {
   @override
@@ -67,6 +68,18 @@ class AboutTab extends StatelessWidget {
                     title: 'Mail',
                     name: 'piotr.brus998@gmail.com',
                   )
+                ],
+              ),
+              SizedBox(
+                height: 150,
+              ),
+              Row(
+                children: <Widget>[
+                  Text('This website was made using Flutter.',style: TextStyle(fontSize: 10),),
+                  FlatButton(
+                    child: Text('Check the source code',style: TextStyle(fontSize: 10),),
+                    onPressed: () => html.window.open('', 'cv_site'),
+                  ),
                 ],
               ),
             ],
