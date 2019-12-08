@@ -3,6 +3,7 @@ import 'package:piotr_brus_cv/widgets/movie.dart';
 import 'package:piotr_brus_cv/config/movies/dates.dart';
 import 'package:piotr_brus_cv/config/movies/titles.dart';
 import 'package:piotr_brus_cv/config/movies/reviews.dart';
+import 'package:piotr_brus_cv/config/localization.dart';
 
 class MoviesTab extends StatelessWidget {
   @override
@@ -15,53 +16,59 @@ class MoviesTab extends StatelessWidget {
             children: <Widget>[
               Movie(
                 date: Dates.KnivesOut,
-                title: Titles.KnivesOut,
-                review: Reviews.KnivesOut,
+                title: AppLocalizations.of(context).koTitle,
+                review: AppLocalizations.of(context).koRev,
               ),
               Movie(
                   date: Dates.Proceder,
                   title: Titles.Proceder,
-                  review: Reviews.Proceder),
+                  review: AppLocalizations.of(context).procederRev),
               Movie(date: Dates.FvF, title: Titles.FvF, review: Reviews.FvF),
               Movie(
                   date: Dates.Terminator,
-                  title: Titles.Terminator,
-                  review: Reviews.Terminator),
+                  title: AppLocalizations.of(context).terminatorTitle,
+                  review: AppLocalizations.of(context).terminatorRev),
               Movie(
                   date: Dates.Zombieland2,
                   title: Titles.Zombieland2,
-                  review: Reviews.Zombieland2),
-              Movie(date: Dates.BC, title: Titles.BC, review: Reviews.BC),
-              Movie(date: Dates.RoN, title: Titles.RoN, review: Reviews.RoN),
+                  review: AppLocalizations.of(context).zombielandRev),
+              Movie(
+                  date: Dates.BC,
+                  title: AppLocalizations.of(context).corpusChristiTitle,
+                  review: AppLocalizations.of(context).bcRev),
+              Movie(
+                  date: Dates.RoN,
+                  title: AppLocalizations.of(context).ronTitle,
+                  review: AppLocalizations.of(context).ronRev),
               Movie(
                   date: Dates.Joker,
                   title: Titles.Joker,
-                  review: Reviews.Joker),
+                  review: AppLocalizations.of(context).jokerRev),
               Movie(
                   date: Dates.Hustlers,
-                  title: Titles.Hustlers,
-                  review: Reviews.Hustlers),
+                  title: AppLocalizations.of(context).hustlersTitle,
+                  review: AppLocalizations.of(context).hustlersRev),
               Movie(date: Dates.WoP, title: Titles.WoP, review: Reviews.WoP),
               Movie(
                   date: Dates.AdAstra,
                   title: Titles.AdAstra,
-                  review: Reviews.AdAstra),
+                  review: AppLocalizations.of(context).adastraRev),
               Movie(
                   date: Dates.Rambo,
-                  title: Titles.Rambo,
-                  review: Reviews.Rambo),
+                  title: AppLocalizations.of(context).ramboTitle,
+                  review: AppLocalizations.of(context).ramboRev),
               Movie(
                   date: Dates.Nieznajomi,
                   title: Titles.Nieznajomi,
-                  review: Reviews.Nieznajomi),
+                  review: AppLocalizations.of(context).niznajomiRev),
               Movie(
                   date: Dates.Pilsudski,
                   title: Titles.Pilsudski,
-                  review: Reviews.Pilsudski),
+                  review: AppLocalizations.of(context).pilsudskiRev),
               Movie(
                   date: Dates.Parasite,
                   title: Titles.Parasite,
-                  review: Reviews.Parasite),
+                  review: AppLocalizations.of(context).parasiteRev),
             ],
           ),
         ),

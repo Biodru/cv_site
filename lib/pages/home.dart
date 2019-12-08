@@ -3,6 +3,7 @@ import 'package:piotr_brus_cv/tabs/about_me.dart';
 import 'package:piotr_brus_cv/tabs/programming.dart';
 import 'package:piotr_brus_cv/tabs/movies.dart';
 import 'package:piotr_brus_cv/tabs/education.dart';
+import 'package:piotr_brus_cv/config/localization.dart';
 
 class HomePage extends StatefulWidget {
   @override

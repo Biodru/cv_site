@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:piotr_brus_cv/config/assets.dart';
 import 'package:piotr_brus_cv/config/constants.dart';
 import 'package:piotr_brus_cv/widgets/social.dart';
+import 'package:piotr_brus_cv/config/text_colors.dart';
+import 'package:piotr_brus_cv/config/localization.dart';
 import 'dart:html' as html;
 
 class AboutTab extends StatelessWidget {
@@ -21,12 +23,19 @@ class AboutTab extends StatelessWidget {
               SizedBox(
                 height: 30,
               ),
-              Text('Piotr Brus'),
+              Text(
+                'Piotr Brus',
+                style: TextStyle(
+                    color: TextColors().primary,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 40),
+              ),
               SizedBox(
                 height: 15,
               ),
               Text(
-                'Student, mobile developer. I love Flutter, Apple and F1',
+                AppLocalizations.of(context).about,
+                style: TextStyle(color: TextColors().secondary, fontSize: 20),
                 textAlign: TextAlign.center,
               ),
               SizedBox(
@@ -75,9 +84,15 @@ class AboutTab extends StatelessWidget {
               ),
               Row(
                 children: <Widget>[
-                  Text('This website was made using Flutter.',style: TextStyle(fontSize: 10),),
+                  Text(
+                    AppLocalizations.of(context).buildFlutter,
+                    style: TextStyle(fontSize: 10),
+                  ),
                   FlatButton(
-                    child: Text('Check the source code',style: TextStyle(fontSize: 10),),
+                    child: Text(
+                      AppLocalizations.of(context).source,
+                      style: TextStyle(fontSize: 10),
+                    ),
                     onPressed: () => html.window.open('', 'cv_site'),
                   ),
                 ],

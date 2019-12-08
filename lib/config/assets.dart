@@ -6,6 +6,12 @@ class Assets {
   static const gmail = 'assets/gmail.png';
   static const gitHub = 'assets/github.png';
   static const skill_share = 'assets/skillshare.png';
+  static const CV = 'assets/TestCV.pdf';
+
+  //Education
+  static const Technikum = 'assets/education/technikum.png';
+  static const Swift1 = 'assets/education/swiftA.png';
+  static const Swift2 = 'assets/education/swiftB.png';
 
   //Wideo
   static const FlutterBasics = 'assets/courses/basics.png';

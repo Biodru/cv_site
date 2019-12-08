@@ -3,6 +3,7 @@ import 'package:toggle_switch/toggle_switch.dart';
 import 'package:piotr_brus_cv/config/assets.dart';
 import 'package:piotr_brus_cv/config/constants.dart';
 import 'package:piotr_brus_cv/widgets/skill_share_course.dart';
+import 'package:piotr_brus_cv/config/text_colors.dart';
 
 class ProgrammingTab extends StatefulWidget {
   @override
@@ -94,12 +95,12 @@ class _ProgrammingTabState extends State<ProgrammingTab> {
               ToggleSwitch(
                   minWidth: 90.0,
                   cornerRadius: 20,
-                  activeBgColor: Colors.black,
-                  activeTextColor: Colors.white,
+                  activeBgColor: Color(0xFF03A9F4),
+                  activeTextColor: Color(0xFFFFEB3B),
                   inactiveBgColor: Colors.white,
-                  inactiveTextColor: Colors.white,
+                  inactiveTextColor: Color(0xFF03A9F4),
                   labels: ['Flutter', 'Swift'],
-                  icons: [Icons.check, Icons.close],
+                  //icons: [Icons.check, Icons.close],
                   onToggle: (index) {
                     if (index == 0) {
                       setState(() {
