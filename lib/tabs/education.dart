@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:piotr_brus_cv/config/assets.dart';
 import 'package:piotr_brus_cv/config/text_colors.dart';
-import 'package:piotr_brus_cv/config/localization.dart';
+import 'package:piotr_brus_cv/generated/i18n.dart';
 import 'dart:html' as html;
 
 class Education extends StatelessWidget {
@@ -14,7 +14,7 @@ class Education extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(10.0),
             child: Text(
-              AppLocalizations.of(context).studia,
+              S.of(context).studia,
               style: TextStyle(
                   color: TextColors().primary,
                   fontWeight: FontWeight.bold,
@@ -24,7 +24,7 @@ class Education extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(10.0),
             child: Text(
-              AppLocalizations.of(context).cca,
+              S.of(context).cca,
               style: TextStyle(
                   color: TextColors().primary,
                   fontWeight: FontWeight.bold,
@@ -54,7 +54,7 @@ class Education extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.all(10.0),
               child: Text(
-                AppLocalizations.of(context).technik,
+                S.of(context).technik,
                 style: TextStyle(
                     color: TextColors().primary,
                     fontWeight: FontWeight.bold,

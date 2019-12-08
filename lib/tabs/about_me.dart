@@ -4,7 +4,7 @@ import 'package:piotr_brus_cv/config/assets.dart';
 import 'package:piotr_brus_cv/config/constants.dart';
 import 'package:piotr_brus_cv/widgets/social.dart';
 import 'package:piotr_brus_cv/config/text_colors.dart';
-import 'package:piotr_brus_cv/config/localization.dart';
+import 'package:piotr_brus_cv/generated/i18n.dart';
 import 'dart:html' as html;
 
 class AboutTab extends StatelessWidget {
@@ -34,7 +34,7 @@ class AboutTab extends StatelessWidget {
                 height: 15,
               ),
               Text(
-                AppLocalizations.of(context).about,
+                S.of(context).about,
                 style: TextStyle(color: TextColors().secondary, fontSize: 20),
                 textAlign: TextAlign.center,
               ),
@@ -85,15 +85,16 @@ class AboutTab extends StatelessWidget {
               Row(
                 children: <Widget>[
                   Text(
-                    AppLocalizations.of(context).buildFlutter,
+                    S.of(context).buildFlutter,
                     style: TextStyle(fontSize: 10),
                   ),
                   FlatButton(
                     child: Text(
-                      AppLocalizations.of(context).source,
+                      S.of(context).source,
                       style: TextStyle(fontSize: 10),
                     ),
-                    onPressed: () => html.window.open('', 'cv_site'),
+                    onPressed: () => html.window
+                        .open('https://github.com/Biodru/cv_site', 'cv_site'),
                   ),
                 ],
               ),

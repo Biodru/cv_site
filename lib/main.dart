@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'config/themes.dart';
 import 'package:piotr_brus_cv/pages/home.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
-import 'config/localization.dart';
+import 'generated/i18n.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,30 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      localeResolutionCallback: (locale, supportedLocales) {
-        // Check if the current device locale is supported
-        for (var supportedLocale in supportedLocales) {
-          if (supportedLocale.languageCode == locale.languageCode &&
-              supportedLocale.countryCode == locale.countryCode) {
-            return supportedLocale;
-          }
-        }
-        return supportedLocales.first;
-      },
-//      localeResolutionCallback:
-//          (Locale locale, Iterable<Locale> supportedLocales) {
-//        return locale;
-//      },
-      supportedLocales: [
-        Locale('en', 'US'),
-        Locale('pl', 'PL'),
-      ],
-      localizationsDelegates: [
-        AppLocalizationsDelegate(),
-        GlobalCupertinoLocalizations.delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-      ],
+      supportedLocales: S.delegate.supportedLocales,
+      localizationsDelegates: [S.delegate],
       title: 'Piotr Brus CV',
       theme: mainTheme(context),
       home: HomePage(),
