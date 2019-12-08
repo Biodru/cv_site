@@ -1,21 +1,22 @@
 {
   "@@last_modified": "2019-12-08T16:09:39.027832",
-  "main": "About me",
+  "@@locale": "pl",
+  "main": "O mnie",
   "@main": {
     "type": "text",
     "placeholders": {}
   },
-  "programming": "Programming",
+  "programming": "Programowanie(poradniki)",
   "@programming": {
     "type": "text",
     "placeholders": {}
   },
-  "movies": "Movies",
+  "movies": "Recenzje Filmów",
   "@movies": {
     "type": "text",
     "placeholders": {}
   },
-  "education": "Education",
+  "education": "Edukacja",
   "@education": {
     "type": "text",
     "placeholders": {}
@@ -25,32 +26,32 @@
     "type": "text",
     "placeholders": {}
   },
-  "koTitle": "Knives Out",
+  "koTitle": "Na noże",
   "@koTitle": {
     "type": "text",
     "placeholders": {}
   },
-  "ramboTitle": "Rambo Last Blood",
+  "ramboTitle": "Rambo Ostatnia Krew",
   "@ramboTitle": {
     "type": "text",
     "placeholders": {}
   },
-  "terminatorTitle": "Terminator Dark Fate",
+  "terminatorTitle": "Terminator Mroczne Przeznaczenie",
   "@terminatorTitle": {
     "type": "text",
     "placeholders": {}
   },
-  "corpusChristiTitle": "Corpus Christi",
+  "corpusChristiTitle": "Boże Ciało",
   "@corpusChristiTitle": {
     "type": "text",
     "placeholders": {}
   },
-  "ronTitle": "Ready or Not",
+  "ronTitle": "Zabawa w Pochowanego",
   "@ronTitle": {
     "type": "text",
     "placeholders": {}
   },
-  "hustlersTitle": "Hustlers",
+  "hustlersTitle": "Ślicznotki",
   "@hustlersTitle": {
     "type": "text",
     "placeholders": {}
@@ -145,12 +146,12 @@
     "type": "text",
     "placeholders": {}
   },
-  "buildFlutter": "This site was made using Flutter",
+  "buildFlutter": "Ta strona została zrobiona przy użyciu Fluttera",
   "@buildFlutter": {
     "type": "text",
     "placeholders": {}
   },
-  "source": "check the source code",
+  "source": "sprawdź kod źródłowy",
   "@source": {
     "type": "text",
     "placeholders": {}

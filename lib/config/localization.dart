@@ -1,7 +1,6 @@
 import 'package:intl/intl.dart';
 import 'package:flutter/material.dart';
 import 'package:piotr_brus_cv/l10n/messages_all.dart';
-import 'movies/titles.dart';
 
 class AppLocalizations {
   AppLocalizations(this.localeName);

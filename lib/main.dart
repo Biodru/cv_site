@@ -11,10 +11,20 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      localeResolutionCallback:
-          (Locale locale, Iterable<Locale> supportedLocales) {
-        return locale;
+      localeResolutionCallback: (locale, supportedLocales) {
+        // Check if the current device locale is supported
+        for (var supportedLocale in supportedLocales) {
+          if (supportedLocale.languageCode == locale.languageCode &&
+              supportedLocale.countryCode == locale.countryCode) {
+            return supportedLocale;
+          }
+        }
+        return supportedLocales.first;
       },
+//      localeResolutionCallback:
+//          (Locale locale, Iterable<Locale> supportedLocales) {
+//        return locale;
+//      },
       supportedLocales: [
         Locale('en', 'US'),
         Locale('pl', 'PL'),

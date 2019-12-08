@@ -1,56 +1,56 @@
 {
   "@@last_modified": "2019-12-08T16:09:39.027832",
-  "main": "O mnie",
+  "main": "About me",
   "@main": {
     "type": "text",
     "placeholders": {}
   },
-  "programming": "Programowanie(poradniki)",
+  "programming": "Programming",
   "@programming": {
     "type": "text",
     "placeholders": {}
   },
-  "movies": "Recenzje Filmów",
+  "movies": "Movies",
   "@movies": {
     "type": "text",
     "placeholders": {}
   },
-  "education": "Edukacja",
+  "education": "Education",
   "@education": {
     "type": "text",
     "placeholders": {}
   },
-  "about": "Student, mobile developer. Kocham Fluttera, Apple i F1",
+  "about": "Student, mobile developer. I love Flutter, Apple and F1",
   "@about": {
     "type": "text",
     "placeholders": {}
   },
-  "koTitle": "Na noże",
+  "koTitle": "Knives Out",
   "@koTitle": {
     "type": "text",
     "placeholders": {}
   },
-  "ramboTitle": "Rambo Ostatnia Krew",
+  "ramboTitle": "Rambo Last Blood",
   "@ramboTitle": {
     "type": "text",
     "placeholders": {}
   },
-  "terminatorTitle": "Terminator Mroczne Przeznaczenie",
+  "terminatorTitle": "Terminator Dark Fate",
   "@terminatorTitle": {
     "type": "text",
     "placeholders": {}
   },
-  "corpusChristiTitle": "Boże Ciało",
+  "corpusChristiTitle": "Corpus Christi",
   "@corpusChristiTitle": {
     "type": "text",
     "placeholders": {}
   },
-  "ronTitle": "Zabawa w Pochowanego",
+  "ronTitle": "Ready or Not",
   "@ronTitle": {
     "type": "text",
     "placeholders": {}
   },
-  "hustlersTitle": "Ślicznotki",
+  "hustlersTitle": "Hustlers",
   "@hustlersTitle": {
     "type": "text",
     "placeholders": {}
@@ -145,12 +145,12 @@
     "type": "text",
     "placeholders": {}
   },
-  "buildFlutter": "Ta strona została zrobiona przy użyciu Fluttera",
+  "buildFlutter": "This site was made using Flutter",
   "@buildFlutter": {
     "type": "text",
     "placeholders": {}
   },
-  "source": "sprawdź kod źródłowy",
+  "source": "check the source code",
   "@source": {
     "type": "text",
     "placeholders": {}

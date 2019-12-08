@@ -1,0 +1,159 @@
+{
+  "@@last_modified": "2019-12-08T16:09:39.027832",
+  "@@locale": "en",
+  "main": "About me",
+  "@main": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "programming": "Programming",
+  "@programming": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "movies": "Movies",
+  "@movies": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "education": "Education",
+  "@education": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "about": "Student, mobile developer. I love Flutter, Apple and F1",
+  "@about": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "koTitle": "Knives Out",
+  "@koTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ramboTitle": "Rambo Last Blood",
+  "@ramboTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "terminatorTitle": "Terminator Dark Fate",
+  "@terminatorTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "corpusChristiTitle": "Corpus Christi",
+  "@corpusChristiTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ronTitle": "Ready or Not",
+  "@ronTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "hustlersTitle": "Hustlers",
+  "@hustlersTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "parasiteRev": "I went to this film exactly as the director recommended. Without watching any promotional materials, and this is how you should see this movie, knowing as little as possible about it. I will skip all feature details and say only one thing. Whoever reads this should rush to this amazing movie.",
+  "@parasiteRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "pilsudskiRev": "Going to this movie I had no expectations, and here a pleasant surprise. Sure, the film is tedious, the action scenes fall out on average, but makes up for the acting (Szyc is particularly distinguished as Piłsudski). As a patriotic production intended mainly for schools, Piłsudski fares really well. This is a competent but a bit boring movie.",
+  "@pilsudskiRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "niznajomiRev": "Currently, seeing a decent trailer of Polish film in the cinema, I am convinced that the film itself will disappoint me. I did so with the recent \"Na bank się uda\". After the trailers, I was counting on a heist movie in the style of Vinci, and I got a boring story, without imagination, humor and character. Fortunately, this situation was not with (un) friends. The film is about a group of friends who at dinner decide to read everyone the messages they receive and receive calls in hands-free mode. The plot is simple but it works. The film stands with characters, their relationships, it is difficult to find a weak link in the cast. Everyone performs their role well, to feel the emotions of the characters Of course, the film is not without flaws. During the screening, I sometimes had the impression that some moments were very unnatural, a lot of jokes did not hit me (but a lot of people in the room laugh), but it's still nothing. We need such small films focused on characters It's nice to see something other than a comedy with a white poster and Karolak, or a patriotic production directed mainly at Sz It is worth going and giving this film a chance.",
+  "@niznajomiRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ramboRev": "I don't know where to start, because the new Rambo is a very strange movie. The plot is boring, predictable and wanders for over an hour. The ending is a slasher version of \"Home alone\". Death scenes are brutal and very absurd, but the film takes it very seriously. Of course, everything Rambo does drips testosterone as much as possible. I write incorrectly, but because I do not know how to put in words my feelings associated with this film. There is an interesting PTSD thread of the main character, which is only mentioned and left behind, supporting characters are boring and often unnecessary. Slasher fans can see the last few scenes on YouTube, and all the rest can easily skip the latest Rambo. The film also has the worst-looking car driving scenes I've seen in a long time.",
+  "@ramboRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "adastraRev": "Brad Pitt's space dilemmas, who is looking for his father. This is Ad Astra in a nutshell. The film has its flaws (the main character's narration disturbed me a lot), but makes up for the great main character and pleasant atmosphere. A must for fans of Astronaut movies.",
+  "@adastraRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cwRev": "The film looks like a British production intended straight for television. Poorly filmed, but makes up for great actors. Mainly for fans of British actors.",
+  "@cwRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "hustlersRev": "This movie was a big surprise for me. The story-based story of strippers robbing Wallstreet wolves was very interesting. The film is made very ingeniously in the style of a documentary, there is no feeling that there are unnecessary scenes, the entire screening just flows. It is amazing how great the relationship between the main heroines falls out, it is well outlined and fantastically played. This does not mean, however, that the film is free of defects, but they are overwhelmed by everything that works in this film. Definitely one of the most interesting productions this year.",
+  "@hustlersRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "jokerRev": "After a great result in Venice and many positive reviews I had great expectations for this film. I can't say I'm disappointed, but I can't say that I think this movie is amazingly great and the best at all. It's a very good movie and it's great that Warner tries to combine and creates various interesting things, instead of copying Disney ineptly, but in turn. Phillips is mainly known as the director of successful comedies (see \"Hangover\") and one can see that he has a problem in the new role of drama director. Many scenes are superfluous, non-contributing, supporting characters are one-dimensional and there are a lot of 'clichés'. In addition, Phillips did not hide that he was strongly inspired by the \"Taxi Driver\" and that is not enough said. Lots of scenes and shots are simply copied from this classic, so at times I couldn't help feeling that I had already seen this film ... Fortunately, Joaquin Phoenix is ​​in this movie and this is his movie. With his amazing acting he makes up for all the shortcomings of the director, his performance just has to be seen. Especially when Arthur fully becomes a Joker. At one point I felt real anxiety watching and listening to the main character, which is why I think it is worth seeing this movie in the cinema, because at home you can easily get distracted. The problem is that this full Joker is really not enough, but such a genre-style charm. Joker is an interesting and bold movie, but it also has many big flaws, but it's definitely worth seeing at the cinema, especially thanks to the amazing Phoenix creation.",
+  "@jokerRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ronRev": "Trailers promise a lot of fun and gore, and the film provides exactly that. The story is simple. The main character after the wedding must play the game with the family of his chosen one. It's a game of hide and seek. The whole family is convinced that they must kill the bride before dawn, otherwise something bad will happen to the family. This is a front entertainment with a lot of humor and gore, and the main character falls out brilliantly and until you want to support her. Great entertainment.",
+  "@ronRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "bcRev": "The story of a boy who pretends to be a priest in a small town after leaving the juvenile school. I must admit that the film fares not only well in terms of story, but also technically. The story is addictive, it was well filmed and the dialogues fall out very naturally (this cannot be said for most Polish films, especially with young people). Komasa had a great selection of actors, Bartosz Bielania, who is a phenomenal main character, deserves special attention. I really like the presentation of the Church, which is not the most important in this film, but it is much more interesting than, for example, In Klerze or Polityka. A film worth seeing.",
+  "@bcRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "zombielandRev": "Zombieland returns after 10 years and very well. In my opinion this is a very successful sequel. The cast from the first part still has great chemistry, and the new characters fit into the presented world. It was nice to come back to this world and the cast, this is a movie that doesn't cheat anyone. Pure entertainment with smashing Zombies and a charming cast.",
+  "@zombielandRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "terminatorRev": "The new Terminator was supposed to be a return to the roots, ignoring some previous, not very successful parts. We have a typical theme. A terminator from the future is sent for the main character to kill her. She is protected by Sarah Connor and Grace (semi-terminator? / Improved man), somehow Arnold Schwarzenneger joins them halfway. It amazes me how terrible special effects are, they have distracted me from this world. Static scenes look tolerable, but any CGI movement of the character looks terribly artificial and unnatural, even worse than in cutscenes from games from 15 years ago. When I saw the beginning with the rejuvenated Arnold, I knew it would be weak and it was only worse. The main heroine irritated me incredibly. The final battle is one big mess. It is not known when it really begins. Suddenly they start fighting, crash planes and they are constantly fighting, explosions, Michael Bay .... On the plus side, Gabriel Luna is great when he's not the CGI mascara ...",
+  "@terminatorRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fvfRev": "Watching the FvF trailers, I knew it looked like a typical Oscar bait. And that's exactly how it is. This is the movie that is meant to appeal to the majority, to be honey to the heart, and so it is. Scenes of driving a car look amazing, Christian Bale, as always falls out great and even for him it is worth seeing this movie. Apparently this could be his last transformation to the role, so go on while Bale is torturing her body. This is a movie that will appeal to the majority and most importantly to the academy.",
+  "@fvfRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "procederRev": "Going to this film, I didn't know much about Chada and his work, so theoretically I should learn something, but if it wasn't for the inscriptions on his corpse, I wouldn't know much. In sequence. I will skip that there are things that shouldn't be theoretically (like BMW i3 in 2002, Samsung Galaxy A5 in 2007, SGS9 in 2016 etc.). The film lasts 2.5 hours, but most of the time is devoted to not important scenes, like watching prisoners playing Scrabble, these scenes last for 10-15 minutes, and any development of the protagonist or his relationships is minimal. This is in my opinion the main problem of this movie. Focuses on what is not needed. We learn little about Chada. At the end there is a scene when the paramedics place his corpse on a stretcher and they go, and then the inscriptions appear what Chada did. And only then I found out that he recorded 6 albums, watching the movie I thought it was a few songs ...",
+  "@procederRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "koRev": "I've been waiting for this movie because Rian Johnson is the director of my favorite part of Whistle Wars (sorry to all Star Wars fans: P). The last Jedi was a breeze of freshness in my already ossified series and \"Knives Out\" is similar in this respect. This is a completely different, fresh view on detective story. The film from the first minute catches the viewer and does not release until the end. Each of the characters is some, even if he says 2-3 flowers in the film, the characters are sometimes very exaggerated, but it works as part of this film and the viewer without stuttering accepts things that might seem absurd. This movie is something new, fresh and interesting. It's definitely worth going.",
+  "@koRev": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "technik": "ZS 10 Staszic. Computer Science (2015-2019)",
+  "@technik": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "studia": "Polsko-Japońska Akademia Technik Komputerowych. Computer Science (2019-)",
+  "@studia": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cca": "CCA Certificates",
+  "@cca": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "buildFlutter": "This site was made using Flutter",
+  "@buildFlutter": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "source": "check the source code",
+  "@source": {
+    "type": "text",
+    "placeholders": {}
+    }
+}
